@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''sh \'yarn\'
-sh \'npx ng build\''''
+        sh '''yarn
+npx ng build'''
       }
     }
 
